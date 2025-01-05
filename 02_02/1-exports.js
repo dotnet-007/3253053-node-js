@@ -2,9 +2,9 @@
 console.log(exports)
 console.log("\n....\n");
 
-const fullname = `Nina Kapinga`;
+const fullname = `My fullname`;
 
-// exports.name = fullname;
+//exports.name = fullname;
 module.exports.name = fullname;
 
 console.log(exports);
