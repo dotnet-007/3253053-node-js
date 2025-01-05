@@ -2,6 +2,7 @@ const myTest = require('node:test');
 const assert = require('node:assert/strict');
 const myOperation = require('./1-operations');
 
+myTest.test()
 myTest.test('test adddition', (tc) => {
     // Arrange
     const operations = new myOperation.operations();
