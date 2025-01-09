@@ -15,6 +15,6 @@ function testPromise(value){
 }
 
 (async function read() {
-    const data = await testPromise(10);
+    const data = await testPromise(10000);
     console.log(data);
 })();

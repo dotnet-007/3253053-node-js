@@ -1,4 +1,4 @@
-const { createServer, request,  }  = require('node:http');
+const { createServer, request, } = require('node:http');
 
 const requestListener = (req, res) => res.end('Welcome to Node.JS application');
 
